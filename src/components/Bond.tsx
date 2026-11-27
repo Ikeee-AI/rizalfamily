@@ -1,5 +1,6 @@
 import TreeLink from './TreeLink';
 import PlateDecor from './PlateDecor';
+import Bust3D from './Bust3D';
 
 export default function Bond() {
   return (
@@ -28,6 +29,21 @@ export default function Bond() {
           <span className="arrow">→</span>
           <span className="node">José, writer &amp; reformer</span>
         </div>
+        <div className="bust-pair">
+          <figure>
+            <div className="oval-frame oval-frame--sm">
+              <Bust3D who="Paciano" name="Paciano Rizal" />
+            </div>
+            <figcaption className="name-plate">PACIANO</figcaption>
+          </figure>
+          <figure>
+            <div className="oval-frame oval-frame--sm">
+              <Bust3D who="Jose" name="José Rizal" />
+            </div>
+            <figcaption className="name-plate">JOSÉ</figcaption>
+          </figure>
+        </div>
+        <div className="bust-note">3D reconstructions · drag to turn</div>
       </div>
     </section>
   );

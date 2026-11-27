@@ -1,6 +1,7 @@
 import ScrollShell from '@/components/ScrollShell';
 import Hero from '@/components/Hero';
 import Overview from '@/components/Overview';
+import Tahanan from '@/components/Tahanan';
 import Ancestry from '@/components/Ancestry';
 import FatherProfile from '@/components/FatherProfile';
 import MotherProfile from '@/components/MotherProfile';
@@ -17,6 +18,7 @@ export default function Home() {
     <ScrollShell>
       <Hero />
       <Overview />
+      <Tahanan />
       <Ancestry />
       <FatherProfile />
       <MotherProfile />

@@ -19,6 +19,9 @@ export default function Closing() {
           that paid dearly for standing beside him.
         </p>
         <div className="credits">A CLASS PROJECT ARCHIVE · COMPILED FROM HISTORICAL RECORDS OF THE RIZAL FAMILY</div>
+        <div className="credits credits--sub">
+          3D BUSTS BASED ON COLORIZED PORTRAITS BY PINOY HISTORY
+        </div>
       </div>
     </section>
   );

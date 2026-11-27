@@ -1,5 +1,6 @@
 import TreeLink from './TreeLink';
 import PlateDecor from './PlateDecor';
+import Bust3D from './Bust3D';
 
 export default function Exile() {
   return (
@@ -18,10 +19,18 @@ export default function Exile() {
           before his execution — his family gathered with him at Fort Santiago one last time.
         </p>
         <div className="lamp-scene">
-          <div className="lamp">
-            <div className="glow" />
-            <div className="neck" />
-            <div className="body" />
+          <div className="lamp-row">
+            <figure>
+              <div className="oval-frame oval-frame--sm">
+                <Bust3D who="Trinidad" name="Trinidad Rizal" />
+              </div>
+              <figcaption className="name-plate">TRINIDAD</figcaption>
+            </figure>
+            <div className="lamp">
+              <div className="glow" />
+              <div className="neck" />
+              <div className="body" />
+            </div>
           </div>
           <p className="body-text" style={{ margin: '0 auto' }}>
             José quietly handed his sister{' '}

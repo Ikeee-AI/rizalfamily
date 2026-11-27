@@ -1,3 +1,4 @@
+import Bust3D from './Bust3D';
 import PlateDecor from './PlateDecor';
 
 function Bust() {
@@ -41,9 +42,12 @@ export default function MotherProfile() {
           <div className="frame-col">
             <div>
               <div className="oval-frame">
-                <Bust />
+                <Bust3D who="Teodora" name="Teodora Alonso Realonda">
+                  <Bust />
+                </Bust3D>
               </div>
               <div className="name-plate">TEODORA ALONSO REALONDA</div>
+              <div className="bust-note">3D reconstruction · drag to turn</div>
             </div>
           </div>
         </div>

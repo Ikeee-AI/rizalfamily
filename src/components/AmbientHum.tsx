@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useState } from 'react';
+import { soundStore } from '@/lib/soundStore';
 
 export default function AmbientHum() {
   const [on, setOn] = useState(false);
@@ -60,6 +61,7 @@ export default function AmbientHum() {
       start();
     }
     setOn(!on);
+    soundStore.set(!on);
   }
 
   return (
